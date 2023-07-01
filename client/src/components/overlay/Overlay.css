@@ -1,0 +1,71 @@
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 99%;
+    opacity: 0;
+    background-color: rgba(59, 59, 59, 0.5);
+    border-radius: 10px;
+}
+.overlay p{
+    position: absolute;
+    bottom: 0;
+    color:beige;
+    font-size:12px;
+}
+.zero{
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.zero:hover .overlay{
+    width: 100%;
+    opacity: 1;
+}
+.one{
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.one:hover .overlay{
+    width:60%;
+    opacity: 1;
+}
+
+.two{
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.two:hover .overlay{
+    width:60%;
+    opacity: 1;
+}
+.three{
+    position: relative;
+    grid-column: 3/4;
+    grid-row:1/3 ;
+}
+.three:hover .overlay{
+    width: 100%;
+    opacity: 1;
+}
+.four{
+    position: relative;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.four:hover .overlay{
+    width: 60%;
+    opacity: 1;
+}
+.five{
+    position: relative;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}  
+.five:hover .overlay{
+    width: 60%;
+    opacity: 1;
+}
+

@@ -1,0 +1,35 @@
+.span1{
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+.sous-span1{
+    position: absolute;
+    top: 12px;
+    color: rgb(69, 66, 66);
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 150px;;
+    transition: max-height 0.3s ease;
+}       
+.sous-span1 li{
+    list-style: none;
+    text-align: left;
+    line-height: 1.5em;
+    background-color:rgb(246, 247, 245);
+    padding: 8px 4px 8px 2px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+   
+}
+.span1:hover .sous-span1{
+    overflow: visible;
+    max-height: 200px;
+}
+
+.sous-span1 li:hover{
+    background-color:#318CE7;
+    color: white;
+    cursor: pointer;
+}

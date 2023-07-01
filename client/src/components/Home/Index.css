@@ -1,0 +1,30 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 40px;
+}
+
+.paraBrands{
+  text-decoration: none;
+  font-weight: bold;
+  color:black;
+  position: absolute;
+  right: 50px
+}
+.iconBrands{
+  font-weight: bold;
+  color:black;
+  position: absolute;
+  right: 20px;
+}
+
+.linkBrands:hover .iconBrands{
+  transition: right 0.2s;
+  transition-timing-function: ease-out;
+  position:absolute;
+  right:17px
+}
