@@ -33,14 +33,6 @@ export async function Action({ request }) {
         }),
       })
       const responseData = await response.json();
-      
-
-      localStorage.setItem('UserId',responseData.id)
-       const token =responseData.token
-       localStorage.setItem('token',token)
-      const experation = new Date();
-      experation.setHours(experation.getHours()+1);
-      localStorage.setItem('experation',experation.toISOString())
 
       if (response.status === 422) {
         console.log(responseData)
@@ -49,6 +41,12 @@ export async function Action({ request }) {
       if(!response.ok){
         return responseData;
       }
+      localStorage.setItem('UserId',responseData.id)
+      const token =responseData.token
+      localStorage.setItem('token',token)
+     const experation = new Date();
+     experation.setHours(experation.getHours()+1);
+     localStorage.setItem('experation',experation.toISOString())
       return redirect('/');
       
   }

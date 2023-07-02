@@ -1,12 +1,13 @@
-import { Accordion, AccordionDetails, AccordionSummary, Box, Drawer, IconButton, Stack } from '@mui/material'
+import { Accordion, AccordionDetails, AccordionSummary, Box, Drawer,Button, IconButton, Stack } from '@mui/material'
 import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
-import { NavLink  } from 'react-router-dom';
+import { NavLink ,Form, useRouteLoaderData, Link } from 'react-router-dom';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import "./NavLink.css"
 function SmallDeviceIcon() {
     const [isOpen,setOpen]=useState(false)
-    
+    const token = useRouteLoaderData('root')
+    console.log(token)
   return (
     <>  
      <IconButton sx={{color:'white',fontSize:'20px'}} onClick={()=>setOpen(true) }>
@@ -73,6 +74,14 @@ function SmallDeviceIcon() {
                     </Stack>
                 </AccordionDetails>
             </Accordion>
+            <Stack position={'absolute'} bottom={'0px'}>
+            {token && 
+            <Form action='/logout' method='Post' style={{display:'flex',justifyContent:'center'}}>
+                <Button  type='submit' sx={{fontSize:'20px',color:'black'}}>Logout</Button>
+            </Form>}
+            {!token && 
+            <Link to={"/account/signin"}><Button sx={{fontSize:'20px',color:'black'}} type='submit'>Loggin</Button></Link>}
+            </Stack>
         </Box>
      </Drawer>
      </>

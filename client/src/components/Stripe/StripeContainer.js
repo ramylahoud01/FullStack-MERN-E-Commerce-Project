@@ -15,7 +15,7 @@ const StripeContainer = () => {
     .map(item => parseFloat(item.price)*parseFloat(item.quantity))
     .reduce((accumulator, currentValue) => accumulator + currentValue, 0);
   return (
-    <Stack sx={{display:'flex',justifyContent:'center',alignItems:'center',marginTop:'20px'}}>
+    <Stack sx={{display:'flex',justifyContent:'center',alignItems:'center',paddingTop:'20px',paddingBottom:'20px'}}>
     {data.cartContent.length >0  ? 
     <Paper elevation={4} >
         <Paper elevation={2}>

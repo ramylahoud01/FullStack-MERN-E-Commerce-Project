@@ -47,7 +47,6 @@ function Header() {
     </Grid>
     <Grid item xs={1}>
         <Stack direction={'row'} sx={{float:'right'}}>
-            <UserIcon />
             {id === '647cf3686eb6b5de7c9df14d' && <PostAddIcon />}
             <ShoppingIcons  />
         </Stack>
