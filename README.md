@@ -15,7 +15,7 @@ Please take a look at the images below to get a better understanding.
 ![Screenshot 2023-07-02 113345](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/ef82be5e-c969-4efa-aba7-e4f7c6b19350)
 
 
-If you Click, We are redirect to our sub-Category :(We can see our URL) .
+If you click on it, you will be redirected to our sub-category, and you will be able to see the updated URL reflecting the change.
 
 # Sub-Category :
 
@@ -26,29 +26,27 @@ If you Click, We are redirect to our sub-Category :(We can see our URL) .
 
 
 # View :
-If you Click on Quick View we are navigate to our View page : 
-as we can see Each item have a specific id .
+When you click on "Quick View," you will be navigated to the View page of the specific item. Each item will have a unique ID associated with it, which can be observed on the View page.
+
 ![picutre4](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/cad42104-31e5-4b6a-9663-2b5f64e169b8)
 ![Screenshot 2023-07-02 120728](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/96f9abcc-b870-4a9f-9af5-c76874753cee)
 ![Screenshot 2023-07-02 120849](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/7887f34c-9ee8-4a13-823e-348640ee8331)
 
 
 # Login :
-If you are trying to add without logging In,We are redirect to our Login Page :
+If you attempt to add something without being logged in, you will be automatically redirected to the Login page.
 ![Screenshot 2023-07-02 122011](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/2914dba1-e7ac-4bc9-9cea-e13a2568a85c)
 
 
-If you try to Submit With an Empty Form , our error appear :
+If you attempt to submit an empty form, an error message will appear to notify you of the empty fields and prompt you to fill them before proceeding.
 ![Screenshot 2023-07-02 133909](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/046256c0-88f0-4230-8cc9-772fd51122d5)
 
 
 
-If you try to Submit without signing up ,also our error appear :
+If you try to submit without signing up, you will encounter an error message that prompts you to sign up before proceeding with the submission
 ![Screenshot 2023-07-02 133939](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/a1d266f2-d828-4706-b1dc-531cc3a6b7f3)
 
-
-
-If you are Submitting With a wrong password , We can see our error message (Check you're Password) :
+If you submit with an incorrect password, an error message will be displayed, indicating that you should check your password for accuracy.
 ![Screenshot 2023-07-02 134001](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/a74be2a2-a9c5-43ab-a9b1-c3fccbd9c26f)
 
 
@@ -56,26 +54,28 @@ If you are Submitting With a wrong password , We can see our error message (Chec
 ![Screenshot 2023-07-02 134113](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/39f89ce1-920f-450e-a7ba-6ee6cfc51d0b)
 
 
-If you try to Signup with an Empty Form :
+If you attempt to sign up with an empty form, you will encounter an error message indicating that the form fields cannot be left empty and prompting you to fill in the required information.
 ![Screenshot 2023-07-02 134222](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/89eb14c7-96ab-4a3e-acae-8325d753fafe)
 
 
-If you try to submit with an exsisting email :
+If you attempt to submit a form with an existing email address, you will receive an error message indicating that the email is already associated with an existing account.
 ![Screenshot 2023-07-02 134722](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/21d5a7fd-671b-4a33-a964-1d145082a733)
 
 
-If the confirm passwrod does not match with password :(the password Should be greater than 5 charachter)
+
+If the confirmed password does not match the entered password, or if the password is less than 5 characters, an error message will appear, indicating that the password should be greater than 5 characters and asking you to ensure that the confirmed password matches the entered password.
 ![Screenshot 2023-07-02 134856](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/a16284d5-6c73-49ff-bbb9-291a66b9b3db)
 
 
 
 # Cart :
-After Logging In , We can Access to our Cart :
+After logging in, you will gain access to your cart, allowing you to view and manage the items you have added for purchase.
 
 ![Screenshot 2023-07-02 140358](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/ee9dfe97-1af2-4b89-ba54-0720ff388155)
 
 
-After adding Some item to the Cart,We can see the total number of item at the top right of our picture.Also we can see items added and the Total Price at the Bottom Right of our Picture.
+
+After adding items to the cart, you will notice the total number of items displayed at the top right corner of the picture. Additionally, at the bottom right corner of the picture, you will be able to see the list of added items along with the total price for all the items in the cart.
 ![Screenshot 2023-07-02 141927](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/9403d483-2772-402c-8420-99060521e134)
 ![Screenshot 2023-07-02 141941](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/0c69c79e-b17c-44fc-9420-f086ecb08c06)
 
@@ -83,7 +83,8 @@ After adding Some item to the Cart,We can see the total number of item at the to
 
 
 # Purchase :
-After Purchasing , we are redirect to our payment page.
+
+After completing the purchase process, you will be redirected to the payment page where you can proceed with the payment for your selected items.
 ![Screenshot 2023-07-02 141724](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/a69ebb04-9c6a-468c-adc1-21a18bd717d7)
 ![Screenshot 2023-07-02 143920](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/8ef361a2-afab-4f09-9308-0576061a5649)
 
@@ -94,17 +95,16 @@ After Paying , We can See our stripe paymnent :
 
 
 # Admin Login :
-If you are Logging In as Admin , We can see Our Post Icon at the top right of the image .
+If you log in as an admin, you will have access to the post icon located at the top right of the image. This icon allows you to create and publish new posts or announcements as an administrator.
 
 ![Screenshot 2023-07-02 165255](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/2683683a-b1e2-44f3-ade1-099b8b2ab042)
 
 
 # Post :
-Only the admin can access this page. If someone other than the admin tries to access this page, an error page is displayed.
+The page you are referring to can only be accessed by the admin. If someone other than the admin tries to access it, an error page will be displayed, indicating that access is restricted to authorized users only.
 
 ![Screenshot 2023-07-02 164301](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/e0db79dc-16eb-42b8-9137-04bdf5bf6c14)
-
-We can choose your Category , Based on this category our sous category and size appear.
+Based on the category you choose, the corresponding subcategories and sizes will be displayed. This allows you to select a specific subcategory and size that aligns with your chosen category.
 
 ![Screenshot 2023-07-02 165034](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/b9349987-4794-4e57-9801-181a7405f9f8)
 ![Screenshot 2023-07-02 165058](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/6bc8507d-8856-4f96-b1ee-22549b149e44)
@@ -113,7 +113,7 @@ We can choose your Category , Based on this category our sous category and size 
 
 
 # Responsive :
-If you are Using an Ipad
+If you are using an iPad, the website or application will be optimized for iPad devices, providing a user-friendly interface and layout specifically designed for iPads. 
 # Home :
 ![Screenshot 2023-07-02 161515](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/fec5feec-1ac8-4cb9-83ea-68831974d276)
 ![Screenshot 2023-07-02 161526](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/807502d7-6cf8-47ec-b41f-9cd8170fe038)
@@ -139,8 +139,7 @@ If you are Using an Ipad
 # Stripe :
 ![Screenshot 2023-07-02 162203](https://github.com/ramylahoud01/FullStack-MERN-E-Commerce-Project/assets/116891890/02fa7ab4-9523-4b78-a287-f1073229c487)
 
-
-If you are using a smart Phone :
+If you are using an smart Phone , the website or application will be optimized for  smart Phone devices, providing a user-friendly interface and layout specifically designed for  smart Phone. 
 
 # Home:
 
